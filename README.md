@@ -1,4 +1,4 @@
-# whmcs-square-payment-gateway
+# WHMCS Square Payment Gateway
 Square Payment Gateway for WHMCS
 
 With our e-commerce API, you can take payments with Square on your own website.
