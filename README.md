@@ -11,3 +11,5 @@ Square Checkout lets merchants accept online payments for supported payment type
     SSL support.
 
 While SSL is not required to use Checkout, Square strongly recommends that merchant sites be SSL certified to reduce the risk of man-in-the-middle attacks.
+
+For integration with your WHMCS, Contact us : bhagwansahane89@gmail.com
