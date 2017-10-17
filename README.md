@@ -18,11 +18,11 @@ Square Checkout has two main screens: payment processing and payment confirmatio
 
 The payment processing screen is where customers enter their credit card details and (optionally) confirm their shipping information:
 
-![Alt text](https://docs.connect.squareup.com/assets/docs/checkout-screen-01-479b0602ad0bc414846a8ed21e5c94dfcf9d65250e473f6be579da704f356be8.png "Checkout")
+![Alt text](https://docs.connect.squareup.com/assets/docs/checkout-screen-01-ed78eb4b8dc9074cae25f31b1a2d555735f64d99bbd2872ca664a7e29de3e077.png "Checkout")
 
 The payment confirmation page is only displayed if you opt not to redirect the customer to your own confirmation page:
 
-![Alt text](https://docs.connect.squareup.com/assets/docs/checkout-screen-02-b3771631ee6be722997668b41d5cc302bebf6ed2949481548c329bf96435c505.png "Confirmation")
+![Alt text](https://docs.connect.squareup.com/assets/docs/checkout-screen-02-de37e8f955599cb14f999d440ade31bc8f18dc8ba2ca15ca4ac8975e8477091c.png "Confirmation")
 
 ## Requirements
 
