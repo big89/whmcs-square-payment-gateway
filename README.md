@@ -50,7 +50,7 @@ Which would look something like this:
 
 Once payment processing completes, transaction and buyer details can be accessed via the Square Dashboard.
 
-# Send the POST request to Square Checkout
+## Send the POST request to Square Checkout
 
 The full Checkout URL for a given location ID is:
 
@@ -68,7 +68,7 @@ When Checkout receives a merchant request at that URL it:
 
 When the merchant site receives the response it saves the checkout ID with the local order information then redirects the customer to the Square-hosted Checkout URL.
 
-# Provide payment details using the Square Checkout UI
+## Provide payment details using the Square Checkout UI
 
 When the customer is redirected to Square Checkout, they are presented with a screen where they can review the order details as an itemized list and enter their payment information. If the original POST request included shipping information, those fields are pre-populated for the customer.
 
@@ -79,7 +79,7 @@ Data entry validation in the Checkout UI includes:
     Credit card expiration date not in the past.
     All required fields populated.
 
-# Process the transaction
+## Process the transaction
 
 Once the payment card information is submitted, Square Checkout will try to authorize and capture payment. In the event of a recoverable error (e.g., the card is declined), the customer is prompted to correct their information.
 
@@ -87,7 +87,7 @@ Once payment is processed, Checkout sends two verification emails: one to the cu
 
 If the original POST request included a redirect URL, the customer is automatically sent to that URL, otherwise, they are presented with a Square Checkout confirmation page.
 
-# Verify transaction results
+## Verify transaction results
 
 Square strongly recommends setting a redirect URL and verifying transaction results to guard against order spoofing. Checkout will append the transaction ID, checkout ID, and store-generated order ID to the redirect URL to facilitate verification. In order to verify the transaction results, merchants should query Square’s Transaction endpoint for the transaction details and confirm the store-generated order ID, checkout ID, and transaction totals match the expected values. For more information on how to verify transaction results, please see the Square Checkout Setup guide. 
 
