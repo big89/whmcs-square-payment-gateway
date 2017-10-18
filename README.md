@@ -28,7 +28,7 @@ The payment confirmation page is only displayed if you opt not to redirect the c
 
 To use Square Checkout on your website, you must be using a hosting solution that allows you to create dynamic pages that support server side scripting (e.g., PHP, Ruby, ASP, Java). If your hosting solution only supports HTML, you cannot use Square Checkout at this time.
 
-## Square Checkout in a nutshell
+## How it works
 
 Square Checkout is a RESTful web service and payment UI, hosted on Square’s servers, for collecting and processing payment information. To take payments with Checkout, merchant sites need to add code that sends order information to Square and (optionally) verifies the result.
 
