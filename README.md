@@ -1,3 +1,5 @@
+For integration with your WHMCS, Contact us : bhagwansahane89@gmail.com
+
 # WHMCS Square Payment Gateway
 Square Payment Gateway for WHMCS
 
