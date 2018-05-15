@@ -1,4 +1,4 @@
-For integration with your WHMCS, Contact us : bhagwansahane89@gmail.com
+For integration with your WHMCS, visit http://logicmaker.in or email us at : support@logicmaker.in
 
 # WHMCS Square Payment Gateway
 
@@ -93,4 +93,4 @@ If the original POST request included a redirect URL, the customer is automatica
 Square strongly recommends setting a redirect URL and verifying transaction results to guard against order spoofing. Checkout will append the transaction ID, checkout ID, and store-generated order ID to the redirect URL to facilitate verification. In order to verify the transaction results, merchants should query Square’s Transaction endpoint for the transaction details and confirm the store-generated order ID, checkout ID, and transaction totals match the expected values. For more information on how to verify transaction results, please see the Square Checkout Setup guide. 
 
 
-For integration with your WHMCS, Contact us : bhagwansahane89@gmail.com
+For integration with your WHMCS, visit http://logicmaker.in or email us at : support@logicmaker.in
