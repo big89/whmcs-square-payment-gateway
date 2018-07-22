@@ -4,10 +4,10 @@ For integration with your WHMCS, visit http://logicmaker.in or email us at : sup
 
 With our e-commerce API, you can take payments with Square on your own website.
 
-Square Checkout lets merchants accept online payments for supported payment types using a checkout workflow hosted on squareup.com that simplifies the process of accepting online payments by providing:
+Square Checkout lets merchants accept online payments for [supported payment types](https://squareup.com/help/article/5085) using a checkout workflow hosted on squareup.com that simplifies the process of accepting online payments by providing:
 
-    Chargeback protection for qualifying transactions.
-    Next business day deposits.
+    [Chargeback protection](https://squareup.com/help/article/5394) for qualifying transactions.
+    [Next business day deposits](https://squareup.com/help/article/5438).
     PCI compliance.
     SSL support.
 
@@ -86,7 +86,7 @@ If the original POST request included a redirect URL, the customer is automatica
 
 ## Verify transaction results
 
-Square strongly recommends setting a redirect URL and verifying transaction results to guard against order spoofing. Checkout will append the transaction ID, checkout ID, and store-generated order ID to the redirect URL to facilitate verification. In order to verify the transaction results, merchants should query Square’s Transaction endpoint for the transaction details and confirm the store-generated order ID, checkout ID, and transaction totals match the expected values. For more information on how to verify transaction results, please see the Square Checkout Setup guide. 
+Square strongly recommends setting a redirect URL and verifying transaction results to guard against [order spoofing](https://en.wikipedia.org/wiki/Spoofing_attack). Checkout will append the transaction ID, checkout ID, and store-generated order ID to the redirect URL to facilitate verification. In order to verify the transaction results, merchants should query Square’s Transaction endpoint for the transaction details and confirm the store-generated order ID, checkout ID, and transaction totals match the expected values. For more information on how to verify transaction results, please see the [Square Checkout Setup guide](https://docs.connect.squareup.com/payments/checkout/setup). 
 
 
 For integration with your WHMCS, visit http://logicmaker.in or email us at : support@logicmaker.in
