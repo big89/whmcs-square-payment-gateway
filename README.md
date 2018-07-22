@@ -6,8 +6,8 @@ With our e-commerce API, you can take payments with Square on your own website.
 
 Square Checkout lets merchants accept online payments for [supported payment types](https://squareup.com/help/article/5085) using a checkout workflow hosted on squareup.com that simplifies the process of accepting online payments by providing:
 
-    [Chargeback protection](https://squareup.com/help/article/5394) for qualifying transactions.
-    [Next business day deposits](https://squareup.com/help/article/5438).
+    Chargeback protection for qualifying transactions.
+    Next business day deposits.
     PCI compliance.
     SSL support.
 
